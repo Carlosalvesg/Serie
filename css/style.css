@@ -73,3 +73,11 @@ img {
     /* para definir espaço entre a lista (como preenchimento interno) */
     padding: 1rem;
 }
+
+.square {
+    display: block;
+    width: 150px;
+    height: 150px;
+    background-color: var(--main-color);
+
+}
