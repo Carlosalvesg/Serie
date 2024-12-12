@@ -125,6 +125,6 @@ img {
 
 }
 
-.dor.active{
-    background-color: var(--secondary-bg-color)
+.dot.active{
+    background-color: var(--secondary-bg-colort)
 }
