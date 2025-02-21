@@ -295,18 +295,11 @@ text-transform: uppercase;
 
 }
 
-.author {
-    display: flex;
-    /* espaço entre as imagens */
-    gap: 1rem;
-    flex-direction: column;
-    
-}
+
 
 .author img{
     width: 100px;
     height: 100px;
-    
 }
 
 .author .author-name{
@@ -319,4 +312,48 @@ text-transform: uppercase;
 
 .author .author-job{
     color: var(--secondary-text-color);
+}
+
+#team{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#team h2{
+    font-weight: bolder;
+    font-size: 3rem;
+    width: 50%;
+    text-align: center;
+}
+
+#team span{
+    color: var(--main-color);
+}
+
+.employees {
+    display: flex;
+    gap: 1.5rem;
+    padding: 2.5rem;
+    
+}
+
+
+.employee .employee-name{
+    display: flex;
+    justify-content: center;
+    color: var(--main-color);
+    text-transform: uppercase;
+    font-weight: 1000;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+}
+
+.employee .employee-role{
+    display: flex;
+    justify-content: center;
+    color: var(--secondary-text-color);
+    text-transform: uppercase;
+    font-weight: 1000;
+    font-size: 0.9rem;
 }
