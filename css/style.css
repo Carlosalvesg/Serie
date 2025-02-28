@@ -321,6 +321,7 @@ text-transform: uppercase;
 }
 
 #team h2{
+    color: var(--secondary-text-color);
     font-weight: bolder;
     font-size: 3rem;
     width: 50%;
@@ -350,6 +351,7 @@ text-transform: uppercase;
 }
 
 .employee .employee-role{
+    color: var(--secondary-text-color);
     display: flex;
     justify-content: center;
     color: var(--secondary-text-color);
