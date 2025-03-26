@@ -313,15 +313,15 @@ i {
     color: var(--main-color);
   }
   
-  #team .square {
+#team .square{
     background-color: var(--tertiary-color);
     width: 100px;
     height: 100px;
     left: 50%;
     margin-left: -50px;
     top: -25px;
-  }
-  
+}
+
   .employees {
     display: flex;
     gap: 2rem;
@@ -397,7 +397,7 @@ i {
     color: var(--main-color);
 }
 /* Rodapé */
-#footer {
+/* #footer {
     color: var(--primary-text-color);
     background-color: var(--secondary-bg-color);
     display: flex;
@@ -479,7 +479,7 @@ i {
   
   .phone-info {
     color: var(--secondary-color);
-  }
+  } */
 
   /* Mobile navbar */
   #menu,
