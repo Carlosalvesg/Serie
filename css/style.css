@@ -395,91 +395,104 @@ i {
 #contact-information .btn:hover{
     background-color: var(--primary-text-color);
     color: var(--main-color);
+
+
+
+/* ==================================================================================================================================== */
+
+
 }
 /* Rodapé */
-/* #footer {
-    color: var(--primary-text-color);
-    background-color: var(--secondary-bg-color);
-    display: flex;
-    justify-content: space-around;
-    padding: 3rem 3rem 5rem;
+#footer {
+    color: var(--primary-text-color); /* Define a cor do texto no rodapé com base em uma variável personalizada */
+    background-color: var(--secondary-bg-color); /* Define a cor de fundo do rodapé */
+    display: flex; /* Organiza os elementos do rodapé em linha, lado a lado */
+    justify-content: space-around; /* Distribui o espaço igualmente entre os elementos filhos */
+    padding: 3rem 3rem 5rem; /* Espaçamento interno (superior, laterais e inferior) para dar respiro ao conteúdo */
   }
   
   #footer i {
-    font-size: 1rem;
-    padding: 0.3rem;
+    font-size: 1rem; /* Define o tamanho dos ícones no rodapé */
+    padding: 0.3rem; /* Adiciona um pequeno espaço interno ao redor dos ícones */
   }
   
   #footer a {
-    color: var(--primary-text-color);
+    color: var(--primary-text-color); /* Deixa os links com a mesma cor dos textos do rodapé */
   }
   
   .contact-info,
   .links-container {
-    width: 20%;
+    width: 20%; /* Cada uma dessas seções ocupa 20% da largura total do rodapé */
   }
   
   .footer-brand {
-    margin-bottom: 2rem;
+    margin-bottom: 2rem; /* Adiciona um espaço abaixo da marca no rodapé */
   }
   
   .footer-brand h2 {
-    background-color: var(--main-color);
-    margin-bottom: 0.5rem;
-    padding: 1rem;
+    background-color: var(--main-color); /* Define a cor de fundo do título da marca */
+    margin-bottom: 0.5rem; /* Espaço inferior após o título */
+    padding: 1rem; /* Espaço interno ao redor do texto do título */
   }
   
   .contact-info p {
-    margin-bottom: 1rem;
+    margin-bottom: 1rem; /* Espaçamento entre os parágrafos de contato */
   }
   
   .contact-info p i {
-    background-color: transparent;
-    padding: 0;
-    color: var(--main-color);
+    background-color: transparent; /* Remove fundo dos ícones */
+    padding: 0; /* Remove o espaçamento interno */
+    color: var(--main-color); /* Altera a cor do ícone para destacar */
   }
   
   .social-networks p {
-    margin-bottom: 1rem;
+    margin-bottom: 1rem; /* Espaço entre os parágrafos da seção de redes sociais */
   }
   
   .networks {
-    margin-top: 2rem;
-    display: flex;
-    gap: 1rem;
+    margin-top: 2rem; /* Espaço acima da lista de redes sociais */
+    display: flex; /* Coloca os ícones de rede social lado a lado */
+    gap: 1rem; /* Espaço entre os ícones */
   }
   
   #footer .networks i {
-    padding: 1rem;
+    padding: 1rem; /* Aumenta o espaço interno dos ícones para que fiquem mais clicáveis/visíveis */
   }
   
   .links-container h4 {
-    text-transform: uppercase;
-    margin-bottom: 3rem;
+    text-transform: uppercase; /* Transforma o texto do título da seção em letras maiúsculas */
+    margin-bottom: 3rem; /* Espaço inferior para separar o título do restante do conteúdo */
   }
   
   .links-container nav {
     display: flex;
-    flex-direction: column;
+    flex-direction: column; /* Organiza os links da navegação em coluna, um abaixo do outro */
   }
   
   .links-container nav a {
-    padding-bottom: 1rem;
-    margin-bottom: 1rem;
-    border-bottom: 1px solid var(--secondary-color);
+    padding-bottom: 1rem; /* Espaço interno abaixo de cada link */
+    margin-bottom: 1rem; /* Espaço externo abaixo de cada link */
+    border-bottom: 1px solid var(--secondary-color); /* Adiciona uma linha inferior para separar visualmente os links */
   }
   
   .phone-number {
-    display: flex;
-    border: 1px solid var(--main-color);
-    gap: 1rem;
-    align-items: center;
-    margin-bottom: 1rem;
+    display: flex; /* Coloca os elementos do telefone lado a lado */
+    border: 1px solid var(--main-color); /* Borda ao redor para destacar a área do número de telefone */
+    gap: 1rem; /* Espaço entre o ícone e o texto do telefone */
+    align-items: center; /* Alinha verticalmente os itens ao centro */
+    margin-bottom: 1rem; /* Espaço inferior entre os blocos de telefone */
   }
   
   .phone-info {
-    color: var(--secondary-color);
-  } */
+    color: var(--secondary-color); /* Define a cor do texto da informação de telefone */
+  }
+  
+
+
+
+/* ==================================================================================================================================== */
+
+
 
   /* Mobile navbar */
   #menu,
